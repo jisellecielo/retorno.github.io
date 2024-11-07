@@ -55,7 +55,8 @@
             var getErrorCode = url.searchParams.get("error_code");
             var mensagemSucesso = document.getElementById('mensagemSucesso');
             mensagemSucesso.textContent = getErrorCode.toString();
-            //alert(c);}
+            //alert(c);
+        }
     </script>
 </body>
 </html>
