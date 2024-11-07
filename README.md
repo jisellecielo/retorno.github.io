@@ -46,16 +46,14 @@
     <div class="container">
         <h1>Welcome to My Simple Page</h1>
         <p>This is a simple HTML page with some basic styling and JavaScript.</p>
-        <button onclick="showAlert()">Click Me</button>
+        <button onclick="getParamsInUrl()">Click Me</button>
     </div>
     <script>
-        function showAlert() {
-            alert('Button clicked!');
-          var url_string = window.location.href
-      var url = new URL(url_string);
-      var c = url.searchParams.get("error_code");
-      console.log(c);
-        }
+        function getParamsInUrl() {
+            var url_string = window.location.href
+            var url = new URL(url_string);
+            var c = url.searchParams.get("error_code");
+            alert(c);}
     </script>
 </body>
 </html>
