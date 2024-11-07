@@ -46,6 +46,7 @@
         <h1>Página de retorno</h1>
         <p>Página que deve ser direcionado ao final do fluxo do OPF.</p>
         <button onclick="getParamsInUrl()">Resultado</button>
+        <p>${c}</p>
     </div>
     <script>
         function getParamsInUrl() {
