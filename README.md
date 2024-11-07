@@ -1,5 +1,4 @@
 # retorno.github.io
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -44,9 +43,9 @@
 </head>
 <body>
     <div class="container">
-        <h1>Welcome to My Simple Page</h1>
-        <p>This is a simple HTML page with some basic styling and JavaScript.</p>
-        <button onclick="getParamsInUrl()">Click Me</button>
+        <h1>Página de retorno</h1>
+        <p>Página que deve ser direcionado ao final do fluxo do OPF.</p>
+        <button onclick="getParamsInUrl()">Resultado</button>
     </div>
     <script>
         function getParamsInUrl() {
