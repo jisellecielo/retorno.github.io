@@ -46,7 +46,7 @@
         <h1>Página de retorno</h1>
         <p>Página que deve ser direcionado ao final do fluxo do OPF.</p>
         <button onclick="getParamsInUrl()">Resultado</button>
-        <div id="result"></p>
+        <div id="result"></div>
     </div>
     <script>
         function getParamsInUrl() {
@@ -55,7 +55,7 @@
             var getErrorCode = url.searchParams.get("error_code");
             var myDiv = $("#result");
             var paragraph = document.createElement("p");
-            paragraph.textContent = getErrorCode;
+            paragraph.textContent = getErrorCode.toString();
             myDiv.append(paragraph);
             //alert(c);}
     </script>
